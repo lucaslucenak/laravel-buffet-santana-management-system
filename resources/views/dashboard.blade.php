@@ -23,46 +23,30 @@
                     <x-sidebar.sidebar-item href='#'>
                         About
                     </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='#'>
-                        About
-                    </x-sidebar.sidebar-item>
                 </x-sidebar.sidebar>
         </nav>
 
         <!-- Page Content  -->
         <div id="content" class="p-4 p-md-5">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn btn-primary">
-                        <i class="fa fa-bars"></i>
-                        <span class="sr-only">Toggle Menu</span>
-                    </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <i class="fa fa-bars"></i>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <section id="top-navbar">
+                <x-top-navbar.top-navbar>
+                    <x-top-navbar.top-navbar-item href="#" class="nav-item active">
+                        Home
+                    </x-top-navbar.top-navbar-item>
+                    <x-top-navbar.top-navbar-item href="/events" class="nav-item">
+                        Events
+                    </x-top-navbar.top-navbar-item>
+                    <x-top-navbar.top-navbar-item href="/clients" class="nav-item">
+                        Clients
+                    </x-top-navbar.top-navbar-item>
+                    <x-top-navbar.top-navbar-item href="/help" class="nav-item">
+                        Help
+                    </x-top-navbar.top-navbar-item>
+                    <x-top-navbar.top-navbar-item href="/about" class="nav-item">
+                        About
+                    </x-top-navbar.top-navbar-item>
+                </x-top-navbar.top-navbar>
+            </section>
             <section id="cards">
                 <div class="container">
                     <div class="row">
