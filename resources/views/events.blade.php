@@ -47,6 +47,33 @@
                     </x-top-navbar.top-navbar-item>
                 </x-top-navbar.top-navbar>
             </section>
+            <section id="cards">
+                <div class="row">
+                    <x-cards.card>
+                        @slot('title')
+                        Adicionar novo Cliente
+                        @endslot
+                        @slot('description')
+                        Clique no botão abaixo e preencha todos os campos!
+                        @endslot
+                        @slot('link')
+                        Adicionar Cliente
+                        @endslot
+                      </x-cards.card>
+                      <x-cards.card>
+                        @slot('title')
+                        Buscar Cliente
+                        @endslot
+                        @slot('description')
+                        Selecione o parâmetro desejado e preencha o campo!
+                        @endslot
+                        @slot('link')
+                        Pesquisar Cliente
+                        @endslot
+                      </x-cards.card>
+                  </div>
+
+            </section>
 
             <section id="table">
                 <x-table.table>
@@ -112,4 +139,5 @@
     <script src="/js/dashboard/jquery.min.js"></script>
     <script src="/js/dashboard/popper.js"></script>
     <script src="/js/dashboard/main.js"></script>
+    <script src="/js/events/search.js"></script>
 @endsection
