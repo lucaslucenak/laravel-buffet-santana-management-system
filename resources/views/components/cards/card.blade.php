@@ -4,7 +4,7 @@
         <h5 class="card-title">{{$title}}</h5>
         <p class="card-text">{{$description}}</p>
         <div class="btn btn-primary" style="display: inline;">
-            {{$buttonContent}} <a href="{{$href}}" class="ml-3" style="color: black;">{{$buttonName}}</a>
+            {{$buttonContent}} <a href="{{$href}}" style="color: black;">{{$buttonName}}</a>
         </div>
       </div>
     </div>

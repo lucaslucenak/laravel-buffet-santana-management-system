@@ -8,22 +8,22 @@
     <div class="wrapper d-flex align-items-stretch">
         <nav id="sidebar">
             <x-sidebar.sidebar>
-                    <x-sidebar.sidebar-item href='/home'>
-                        Home
-                    </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item class="active" href='#'>
-                        Events
-                    </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='/clients'>
-                        Clients
-                    </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='/help'>
-                        Help
-                    </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='/about'>
-                        About
-                    </x-sidebar.sidebar-item>
-                </x-sidebar.sidebar>
+                <x-sidebar.sidebar-item href='/home'>
+                    Home
+                </x-sidebar.sidebar-item>
+                <x-sidebar.sidebar-item class="active" href='#'>
+                    Events
+                </x-sidebar.sidebar-item>
+                <x-sidebar.sidebar-item href='/clients'>
+                    Clients
+                </x-sidebar.sidebar-item>
+                <x-sidebar.sidebar-item href='/help'>
+                    Help
+                </x-sidebar.sidebar-item>
+                <x-sidebar.sidebar-item href='/about'>
+                    About
+                </x-sidebar.sidebar-item>
+            </x-sidebar.sidebar>
         </nav>
 
         <!-- Page Content  -->
@@ -51,39 +51,44 @@
                 <div class="row">
                     <x-cards.card>
                         @slot('title')
-                        Adicionar novo Evento
+                            Adicionar novo Evento
                         @endslot
                         @slot('description')
-                        Clique no botão abaixo e preencha todos os campos!
+                            Clique no botão abaixo e preencha todos os campos!
                         @endslot
                         @slot('buttonContent')
-                        asdasdasdasdasd
+
                         @endslot
                         @slot('href')
-                        /events/search
+                            /events/search
                         @endslot
                         @slot('buttonName')
-                        Pesquisar Evento
+                            Pesquisar Evento
                         @endslot
-                      </x-cards.card>
-                      <x-cards.card>
+                    </x-cards.card>
+                    <x-cards.card>
                         @slot('title')
-                        Buscar Evento
+                            Buscar Evento
                         @endslot
                         @slot('description')
-                        Selecione o parâmetro desejado, preencha o campo e clique em "Pesquisar Evento"!
+                            Selecione o parâmetro desejado, preencha o campo e clique em "Pesquisar Evento"!
                         @endslot
                         @slot('buttonContent')
-                        asdadasdadasda
+                            <select id="cpfInput" style="border-radius: 10px; border: 1px solid #ccc;">
+                                <option value="cpf">CPF</option>
+                                <option value="rg">Nome</option>
+                                <option value="cnh">Data</option>
+                            </select>
+                            <input id="cpfInput" type="text" class="mr-3" style="border-radius: 10px; border: 1px solid #ccc;">
                         @endslot
                         @slot('href')
-                        /events/search
+                            /events/search
                         @endslot
                         @slot('buttonName')
-                        Pesquisar Evento
+                            Pesquisar Evento
                         @endslot
-                      </x-cards.card>
-                  </div>
+                    </x-cards.card>
+                </div>
 
             </section>
 
