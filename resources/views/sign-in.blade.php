@@ -1,7 +1,4 @@
 @extends('layouts.app-layout')
-@push('styles')
-    <link href="{{ asset('css/meuestilo.css') }}" rel="stylesheet">
-@endpush
 @section('content')
     <section class="vh-100" style="background: linear-gradient(to right, rgb(254, 179, 7), rgb(249, 204, 51));">
         <div class="container py-5 h-100">
