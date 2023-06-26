@@ -28,7 +28,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">Home</a>
                     </li>
                     <li>
                         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
@@ -123,7 +123,7 @@
                     </div>
             </section>
             <section id="table">
-                <x-table>
+                <x-table.table>
                     @slot('title')
                         Events
                     @endslot
@@ -149,7 +149,7 @@
                             <td><i class="fa-regular fa-eye"></i></td>
                         </tr>
                         <tr>
-                            <th scope="row">1</th>
+                            <th scope="row">2</th>
                             <td>Mark</td>
                             <td>Otto</td>
                             <td>@mdo</td>
@@ -158,7 +158,7 @@
                             <td><i class="fa-regular fa-eye"></i></td>
                         </tr>
                         <tr>
-                            <th scope="row">1</th>
+                            <th scope="row">3</th>
                             <td>Mark</td>
                             <td>Otto</td>
                             <td>@mdo</td>
@@ -167,7 +167,7 @@
                             <td><i class="fa-regular fa-eye"></i></td>
                         </tr>
                         <tr>
-                            <th scope="row">1</th>
+                            <th scope="row">4</th>
                             <td>Mark</td>
                             <td>Otto</td>
                             <td>@mdo</td>
@@ -176,7 +176,7 @@
                             <td><i class="fa-regular fa-eye"></i></td>
                         </tr>
                     @endslot
-                </x-table>
+                </x-table.table>
             </section>
         </div>
     </div>
