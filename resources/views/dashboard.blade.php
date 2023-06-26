@@ -7,52 +7,26 @@
 @section('content')
     <div class="wrapper d-flex align-items-stretch">
         <nav id="sidebar">
-            <div class="p-4 pt-5">
-                <h3 style="color: white; text-align: center;">BUFFET SANTANA</h3>
-                <a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
-                <h5 style="color: white; text-align: center;">Lucas Lucena</h5>
-                <h6 style="color: white; text-align: center;">Admin</h6>
-                <ul class="list-unstyled components mb-5">
-                    <li class="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li>
-                                <a href="#">Home 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Home 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Home 3</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
-                            class="dropdown-toggle">Pages</a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li>
-                                <a href="#">Page 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 3</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            <x-sidebar.sidebar>
+                    <x-sidebar.sidebar-item class="active" href='#'>
+                        Home
+                    </x-sidebar.sidebar-item>
+                    <x-sidebar.sidebar-item href='#'>
+                        Events
+                    </x-sidebar.sidebar-item>
+                    <x-sidebar.sidebar-item href='#'>
+                        Clients
+                    </x-sidebar.sidebar-item>
+                    <x-sidebar.sidebar-item href='#'>
+                        Help
+                    </x-sidebar.sidebar-item>
+                    <x-sidebar.sidebar-item href='#'>
+                        About
+                    </x-sidebar.sidebar-item>
+                    <x-sidebar.sidebar-item href='#'>
+                        About
+                    </x-sidebar.sidebar-item>
+                </x-sidebar.sidebar>
         </nav>
 
         <!-- Page Content  -->
