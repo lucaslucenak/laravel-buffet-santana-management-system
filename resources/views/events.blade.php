@@ -51,24 +51,36 @@
                 <div class="row">
                     <x-cards.card>
                         @slot('title')
-                        Adicionar novo Cliente
+                        Adicionar novo Evento
                         @endslot
                         @slot('description')
                         Clique no botão abaixo e preencha todos os campos!
                         @endslot
-                        @slot('link')
-                        Adicionar Cliente
+                        @slot('buttonContent')
+                        asdasdasdasdasd
+                        @endslot
+                        @slot('href')
+                        /events/search
+                        @endslot
+                        @slot('buttonName')
+                        Pesquisar Evento
                         @endslot
                       </x-cards.card>
                       <x-cards.card>
                         @slot('title')
-                        Buscar Cliente
+                        Buscar Evento
                         @endslot
                         @slot('description')
-                        Selecione o parâmetro desejado e preencha o campo!
+                        Selecione o parâmetro desejado, preencha o campo e clique em "Pesquisar Evento"!
                         @endslot
-                        @slot('link')
-                        Pesquisar Cliente
+                        @slot('buttonContent')
+                        asdadasdadasda
+                        @endslot
+                        @slot('href')
+                        /events/search
+                        @endslot
+                        @slot('buttonName')
+                        Pesquisar Evento
                         @endslot
                       </x-cards.card>
                   </div>
