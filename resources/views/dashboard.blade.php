@@ -122,10 +122,12 @@
                         </div>
                     </div>
             </section>
-            <section id="table" style="margin-top: 100px; border-radius: 15px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
-                <h4 style="margin-bottom: 10px; margin-left: 10px; padding-top: 10px;">Events</h4>
-                <table class="table table-striped">
-                    <thead>
+            <section id="table">
+                <x-table>
+                    @slot('title')
+                        Events
+                    @endslot
+                    @slot('thead')
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Cliente</th>
@@ -135,8 +137,8 @@
                             <th scope="col">Status</th>
                             <th scope="col">View</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                    @endslot
+                    @slot('tbody')
                         <tr>
                             <th scope="row">1</th>
                             <td>Mark</td>
@@ -173,9 +175,8 @@
                             <td>@mdo</td>
                             <td><i class="fa-regular fa-eye"></i></td>
                         </tr>
-                    </tbody>
-                </table>
-
+                    @endslot
+                </x-table>
             </section>
         </div>
     </div>
