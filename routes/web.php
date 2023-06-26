@@ -21,8 +21,8 @@ Route::get('/sign-in', function () {
     return view('sign-in');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
+Route::get('/home', function () {
+    return view('home');
 });
 
 Route::get('/events', function () {
