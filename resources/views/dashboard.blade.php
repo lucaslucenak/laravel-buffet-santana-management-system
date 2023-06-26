@@ -93,7 +93,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
-                            <div class="card-body">
+                            <div class="card-body" style="padding-top: 50px; padding-bottom: 50px;">
                                 <h5 class="card-title">Clients</h5>
                                 <p class="card-text">200</p>
                             </div>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card">
-                            <div class="card-body">
+                            <div class="card-body" style="padding-top: 50px; padding-bottom: 50px;">
                                 <h5 class="card-title">Pending Events</h5>
                                 <p class="card-text">3</p>
                             </div>
@@ -109,7 +109,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card">
-                            <div class="card-body">
+                            <div class="card-body" style="padding-top: 50px; padding-bottom: 50px;">
                                 <h5 class="card-title">Card 3</h5>
                                 <p class="card-text">Conteúdo do Card 3.</p>
                             </div>
