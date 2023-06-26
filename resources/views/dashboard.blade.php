@@ -11,16 +11,16 @@
                     <x-sidebar.sidebar-item class="active" href='#'>
                         Home
                     </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='#'>
+                    <x-sidebar.sidebar-item href='/events'>
                         Events
                     </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='#'>
+                    <x-sidebar.sidebar-item href='/clients'>
                         Clients
                     </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='#'>
+                    <x-sidebar.sidebar-item href='/help'>
                         Help
                     </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='#'>
+                    <x-sidebar.sidebar-item href='/about'>
                         About
                     </x-sidebar.sidebar-item>
                 </x-sidebar.sidebar>

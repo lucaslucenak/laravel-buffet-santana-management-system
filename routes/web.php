@@ -24,3 +24,19 @@ Route::get('/sign-in', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+Route::get('/events', function () {
+    return view('events');
+});
+
+Route::get('/clients', function () {
+    return view('clients');
+});
+
+Route::get('/help', function () {
+    return view('help');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
