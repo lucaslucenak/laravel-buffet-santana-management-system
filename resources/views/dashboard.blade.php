@@ -89,45 +89,94 @@
                     </div>
                 </div>
             </nav>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body" style="padding-top: 50px; padding-bottom: 50px;">
-                                <h5 class="card-title">Clients</h5>
-                                <p class="card-text">200</p>
+            <section id="cards">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card"
+                                style="border-radius: 10px; background: linear-gradient(to bottom right, #FEAF00, #F9CE37);">
+                                <div class="card-body" style="padding-top: 30px; padding-bottom: 30px;">
+                                    <i class="fa-regular fa-user" style="font-size: 50px;"></i>
+                                    <h5 class="card-title" style="margin-top: 15px;">Clients</h5>
+                                    <p class="card-text" style="text-align: right;">200</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="border-radius: 10px; background-color: rgb(254, 246, 251);">
+                                <div class="card-body" style="padding-top: 30px; padding-bottom: 30px;">
+                                    <i class="fa-regular fa-bookmark" style="font-size: 50px;"></i>
+                                    <h5 class="card-title" style="margin-top: 15px;">Clients</h5>
+                                    <p class="card-text" style="text-align: right;">200</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="border-radius: 10px; background-color: #F0F9FF">
+                                <div class="card-body" style="padding-top: 30px; padding-bottom: 30px;">
+                                    <i class="fa-regular fa-user" style="font-size: 50px;"></i>
+                                    <h5 class="card-title" style="margin-top: 15px;">Clients</h5>
+                                    <p class="card-text" style="text-align: right;">200</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body" style="padding-top: 50px; padding-bottom: 50px;">
-                                <h5 class="card-title">Pending Events</h5>
-                                <p class="card-text">3</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body" style="padding-top: 50px; padding-bottom: 50px;">
-                                <h5 class="card-title">Card 3</h5>
-                                <p class="card-text">Conteúdo do Card 3.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h2 class="mb-4">Sidebar #01</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                anim id est laborum.</p>
+            </section>
+            <section id="table" style="margin-top: 100px; border-radius: 15px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+                <h4 style="margin-bottom: 10px; margin-left: 10px; padding-top: 10px;">Events</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Cliente</th>
+                            <th scope="col">Endereço</th>
+                            <th scope="col">Data</th>
+                            <th scope="col">Valor</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">View</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td><i class="fa-regular fa-eye"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td><i class="fa-regular fa-eye"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td><i class="fa-regular fa-eye"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td><i class="fa-regular fa-eye"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
         </div>
     </div>
 @endsection
