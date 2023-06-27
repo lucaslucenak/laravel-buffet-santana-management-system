@@ -51,6 +51,53 @@
 
             <section id="form">
                 <x-forms.form>
+                    @slot('formTitle')
+                        Registrar novo cliente
+                    @endslot
+                    @slot('formRows')
+                        <x-forms.form-row>
+                            @slot('name')
+                                Nome Completo
+                            @endslot
+                        </x-forms.form-row>
+                        <x-forms.form-row>
+                            @slot('name')
+                                CPF
+                            @endslot
+                        </x-forms.form-row>
+                        <x-forms.form-row>
+                            @slot('name')
+                                Endereço
+                            @endslot
+                        </x-forms.form-row>
+                        <x-forms.form-row>
+                            @slot('name')
+                                E-mail
+                            @endslot
+                        </x-forms.form-row>
+                        <div class="form-row m-b-55">
+                            <div class="name">Phone</div>
+                            <div class="value">
+                                <div class="row row-refine">
+                                    <div class="col-3">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="area_code">
+                                            <label class="label--desc">Area Code</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="phone">
+                                            <label class="label--desc">Phone Number</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endslot
+                    @slot('buttonName')
+                        Registrar Cliente
+                    @endslot
                 </x-forms.form>
             </section>
 
