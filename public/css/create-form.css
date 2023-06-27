@@ -1,19 +1,4 @@
 
-/* ==========================================================================
-   #FONT
-   ========================================================================== */
-   .font-robo {
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-  }
-  
-  .font-poppins {
-    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
-  }
-  
-  .font-opensans {
-    font-family: "Open Sans", "Arial", "Helvetica Neue", sans-serif;
-  }
-  
   /* ==========================================================================
      #GRID
      ========================================================================== */
@@ -234,7 +219,6 @@
   }
   
   body {
-    font-family: "Open Sans", "Arial", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
   }
@@ -396,7 +380,6 @@
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
-    font-family: inherit;
   }
   
   .btn--radius {
@@ -454,7 +437,6 @@
   
   .table-condensed td, .table-condensed th {
     font-size: 14px;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
     font-weight: 400;
   }
   
@@ -503,7 +485,6 @@
     box-shadow: none;
     width: 100%;
     font-size: 14px;
-    font-family: inherit;
   }
   
   .radio-container {
@@ -667,7 +648,6 @@
     padding-left: 0;
     color: #555;
     font-size: 16px;
-    font-family: inherit;
     padding-left: 22px;
     padding-right: 50px;
   }
@@ -697,7 +677,6 @@
   }
   
   .rs-select2 .select2-container .select2-selection--single .select2-selection__arrow:after {
-    font-family: "Material-Design-Iconic-Font";
     content: '\f2f9';
     font-size: 24px;
     color: #999;
