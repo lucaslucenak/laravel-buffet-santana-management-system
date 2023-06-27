@@ -51,6 +51,12 @@
 
             <section id="form">
                 <x-forms.form>
+                    @slot('registerHref')
+                        /clients
+                    @endslot
+                    @slot('goBackHref')
+                        /clients
+                    @endslot
                     @slot('formTitle')
                         Registrar novo cliente
                     @endslot
