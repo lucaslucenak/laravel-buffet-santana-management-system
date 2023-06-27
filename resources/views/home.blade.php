@@ -64,16 +64,16 @@
                             <div class="card" style="border-radius: 10px; background-color: rgb(254, 246, 251);">
                                 <div class="card-body" style="padding-top: 30px; padding-bottom: 30px;">
                                     <i class="fa-regular fa-bookmark" style="font-size: 50px;"></i>
-                                    <h5 class="card-title" style="margin-top: 15px;">Eventos</h5>
-                                    <p class="card-text" style="text-align: right;">200</p>
+                                    <h5 class="card-title" style="margin-top: 15px;">Eventos pendentes</h5>
+                                    <p class="card-text" style="text-align: right;">15</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card" style="border-radius: 10px; background-color: #F0F9FF">
                                 <div class="card-body" style="padding-top: 30px; padding-bottom: 30px;">
-                                    <i class="fa-regular fa-user" style="font-size: 50px;"></i>
-                                    <h5 class="card-title" style="margin-top: 15px;">Capacidade</h5>
+                                    <i class="fa-solid fa-dollar-sign" style="font-size: 50px;"></i>
+                                    <h5 class="card-title" style="margin-top: 15px;">Receita mensal</h5>
                                     <p class="card-text" style="text-align: right;">200</p>
                                 </div>
                             </div>
