@@ -8,22 +8,22 @@
     <div class="wrapper d-flex align-items-stretch">
         <nav id="sidebar">
             <x-sidebar.sidebar>
-                    <x-sidebar.sidebar-item class="active" href='#'>
-                        Home
-                    </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='/events'>
-                        Events
-                    </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='/clients'>
-                        Clients
-                    </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='/help'>
-                        Help
-                    </x-sidebar.sidebar-item>
-                    <x-sidebar.sidebar-item href='/about'>
-                        About
-                    </x-sidebar.sidebar-item>
-                </x-sidebar.sidebar>
+                <x-sidebar.sidebar-item class="active" href='#'>
+                    Home
+                </x-sidebar.sidebar-item>
+                <x-sidebar.sidebar-item href='/events'>
+                    Eventos
+                </x-sidebar.sidebar-item>
+                <x-sidebar.sidebar-item href='/clients'>
+                    Clientes
+                </x-sidebar.sidebar-item>
+                <x-sidebar.sidebar-item href='/help'>
+                    Ajuda
+                </x-sidebar.sidebar-item>
+                <x-sidebar.sidebar-item href='/about'>
+                    Sobre
+                </x-sidebar.sidebar-item>
+            </x-sidebar.sidebar>
         </nav>
 
         <!-- Page Content  -->
@@ -34,16 +34,16 @@
                         Home
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/events" class="nav-item">
-                        Events
+                        Eventos
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/clients" class="nav-item">
-                        Clients
+                        Clientes
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/help" class="nav-item">
-                        Help
+                        Ajuda
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/about" class="nav-item">
-                        About
+                        Sobre
                     </x-top-navbar.top-navbar-item>
                 </x-top-navbar.top-navbar>
             </section>
@@ -55,7 +55,7 @@
                                 style="border-radius: 10px; background: linear-gradient(to bottom right, #FEAF00, #F9CE37);">
                                 <div class="card-body" style="padding-top: 30px; padding-bottom: 30px;">
                                     <i class="fa-regular fa-user" style="font-size: 50px;"></i>
-                                    <h5 class="card-title" style="margin-top: 15px;">Clients</h5>
+                                    <h5 class="card-title" style="margin-top: 15px;">Clientes</h5>
                                     <p class="card-text" style="text-align: right;">200</p>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                             <div class="card" style="border-radius: 10px; background-color: rgb(254, 246, 251);">
                                 <div class="card-body" style="padding-top: 30px; padding-bottom: 30px;">
                                     <i class="fa-regular fa-bookmark" style="font-size: 50px;"></i>
-                                    <h5 class="card-title" style="margin-top: 15px;">Clients</h5>
+                                    <h5 class="card-title" style="margin-top: 15px;">Eventos</h5>
                                     <p class="card-text" style="text-align: right;">200</p>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@
                             <div class="card" style="border-radius: 10px; background-color: #F0F9FF">
                                 <div class="card-body" style="padding-top: 30px; padding-bottom: 30px;">
                                     <i class="fa-regular fa-user" style="font-size: 50px;"></i>
-                                    <h5 class="card-title" style="margin-top: 15px;">Clients</h5>
+                                    <h5 class="card-title" style="margin-top: 15px;">Capacidade</h5>
                                     <p class="card-text" style="text-align: right;">200</p>
                                 </div>
                             </div>
@@ -81,73 +81,83 @@
                     </div>
             </section>
             <section id="table">
-                <x-table.table>
-                    @slot('title')
-                        Events
-                    @endslot
-                    @slot('thead')
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Cliente</th>
-                            <th scope="col">Endereço</th>
-                            <th scope="col">Data</th>
-                            <th scope="col">Valor</th>
-                            <th scope="col">Situação</th>
-                            <th scope="col">Ver</th>
-                            <th scope="col">Editar</th>
-                        </tr>
-                    @endslot
-                    @slot('tbody')
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
-                        </tr>
-                    @endslot
-                    <x-confirm-delete-modal>
-                        @slot('description')
-                        Deseja realmente excluir o evento? </br>Esta ação é irreversível. 
+                <section id="table">
+                    <x-table.table>
+                        @slot('title')
+                            Eventos
                         @endslot
-                        @slot('href')
-                        /home
+                        @slot('thead')
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Cliente</th>
+                                <th scope="col">Endereço</th>
+                                <th scope="col">Data</th>
+                                <th scope="col">Valor</th>
+                                <th scope="col">Situação</th>
+                                <th scope="col">Ver</th>
+                                <th scope="col">Excluir</th>
+                            </tr>
                         @endslot
-                    </x-confirm-delete-modal>
-                </x-table.table>
+                        @slot('tbody')
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Lucas de Lucena Siqueira</td>
+                                <td>Celeble La Vie - Lagoa Seca - PB, 58120-000</td>
+                                <td>28/06/2023</td>
+                                <td>R$ 75.063,20</td>
+                                <td>Pago</td>
+                                <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                                <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal"
+                                        data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash"
+                                            style="color: #db1414;"></i></a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Lucas de Lucena Siqueira</td>
+                                <td>Celeble La Vie - Lagoa Seca - PB, 58120-000</td>
+                                <td>28/06/2023</td>
+                                <td>R$ 75.063,20</td>
+                                <td>Pago</td>
+                                <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                                <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal"
+                                        data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash"
+                                            style="color: #db1414;"></i></a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Lucas de Lucena Siqueira</td>
+                                <td>Celeble La Vie - Lagoa Seca - PB, 58120-000</td>
+                                <td>28/06/2023</td>
+                                <td>R$ 75.063,20</td>
+                                <td>Pago</td>
+                                <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                                <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal"
+                                        data-target="#confirmDeleteModal" data-item-id="1"><i
+                                            class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Lucas de Lucena Siqueira</td>
+                                <td>Celeble La Vie - Lagoa Seca - PB, 58120-000</td>
+                                <td>28/06/2023</td>
+                                <td>R$ 75.063,20</td>
+                                <td>Pago</td>
+                                <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                                <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal"
+                                        data-target="#confirmDeleteModal" data-item-id="1"><i
+                                            class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
+                            </tr>
+                        @endslot
+                        <x-confirm-delete-modal>
+                            @slot('description')
+                                Deseja realmente excluir o evento? </br>Esta ação é irreversível.
+                            @endslot
+                            @slot('href')
+                                /home
+                            @endslot
+                        </x-confirm-delete-modal>
+                    </x-table.table>
+                </section>
             </section>
         </div>
     </div>

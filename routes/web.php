@@ -29,6 +29,15 @@ Route::get('/events', function () {
     return view('event.events');
 });
 
+Route::get('/events/create', function () {
+    return view('event.create-event');
+});
+
+
+Route::get('/events/search', function () {
+    return view('event.search-event');
+});
+
 Route::get('/clients', function () {
     return view('client.clients');
 });

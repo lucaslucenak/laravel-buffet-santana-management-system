@@ -12,16 +12,16 @@
                     Home
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item class="active" href='#'>
-                    Events
+                    Eventos
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/clients'>
-                    Clients
+                    Clientes
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/help'>
-                    Help
+                    Ajuda
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/about'>
-                    About
+                    Sobre
                 </x-sidebar.sidebar-item>
             </x-sidebar.sidebar>
         </nav>
@@ -34,16 +34,16 @@
                         Home
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="#" class="nav-item active">
-                        Events
+                        Eventos
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/clients" class="nav-item">
-                        Clients
+                        Clientes
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/help" class="nav-item">
-                        Help
+                        Ajuda
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/about" class="nav-item">
-                        About
+                        Sobre
                     </x-top-navbar.top-navbar-item>
                 </x-top-navbar.top-navbar>
             </section>
@@ -95,7 +95,7 @@
             <section id="table">
                 <x-table.table>
                     @slot('title')
-                        Events
+                        Eventos
                     @endslot
                     @slot('thead')
                         <tr>
@@ -112,42 +112,42 @@
                     @slot('tbody')
                         <tr>
                             <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td>Lucas de Lucena Siqueira</td>
+                            <td>Celeble La Vie - Lagoa Seca - PB, 58120-000</td>
+                            <td>28/06/2023</td>
+                            <td>R$ 75.063,20</td>
+                            <td>Pago</td>
+                            <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td>Lucas de Lucena Siqueira</td>
+                            <td>Celeble La Vie - Lagoa Seca - PB, 58120-000</td>
+                            <td>28/06/2023</td>
+                            <td>R$ 75.063,20</td>
+                            <td>Pago</td>
+                            <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td>Lucas de Lucena Siqueira</td>
+                            <td>Celeble La Vie - Lagoa Seca - PB, 58120-000</td>
+                            <td>28/06/2023</td>
+                            <td>R$ 75.063,20</td>
+                            <td>Pago</td>
+                            <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td>Lucas de Lucena Siqueira</td>
+                            <td>Celeble La Vie - Lagoa Seca - PB, 58120-000</td>
+                            <td>28/06/2023</td>
+                            <td>R$ 75.063,20</td>
+                            <td>Pago</td>
+                            <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
                         </tr>
                     @endslot

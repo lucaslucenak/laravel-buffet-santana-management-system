@@ -2,7 +2,7 @@
     <div class="name">{{$name}}</div>
     <div class="value">
         <div class="input-group">
-            <input class="input--style-5" type="email" name="email">
+            <input class="input--style-5" type="email" name="email" value='{{$defaultValue}}'>
         </div>
     </div>
 </div>

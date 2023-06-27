@@ -12,16 +12,16 @@
                     Home
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item  href='/events'>
-                    Events
+                    Eventos
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item class="active" href='#'>
-                    Clients
+                    Clientes
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/help'>
-                    Help
+                    Ajuda
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/about'>
-                    About
+                    Sobre
                 </x-sidebar.sidebar-item>
             </x-sidebar.sidebar>
         </nav>
@@ -34,16 +34,16 @@
                         Home
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/events" class="nav-item">
-                        Events
+                        Eventos
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="#" class="nav-item active">
-                        Clients
+                        Clientes
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/help" class="nav-item">
-                        Help
+                        Ajuda
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/about" class="nav-item">
-                        About
+                        Sobre
                     </x-top-navbar.top-navbar-item>
                 </x-top-navbar.top-navbar>
             </section>
@@ -95,7 +95,7 @@
             <section id="table">
                 <x-table.table>
                     @slot('title')
-                        Clients
+                        Clientes
                     @endslot
                     @slot('thead')
                         <tr>

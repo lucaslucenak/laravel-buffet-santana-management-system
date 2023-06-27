@@ -12,10 +12,10 @@
                 <x-sidebar.sidebar-item href='/home'>
                     Home
                 </x-sidebar.sidebar-item>
-                <x-sidebar.sidebar-item href='/events'>
+                <x-sidebar.sidebar-item class="active" href='#'>
                     Eventos
                 </x-sidebar.sidebar-item>
-                <x-sidebar.sidebar-item class="active" href='#'>
+                <x-sidebar.sidebar-item href='/clients'>
                     Clientes
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/help'>
@@ -34,10 +34,10 @@
                     <x-top-navbar.top-navbar-item href="/home" class="nav-item">
                         Home
                     </x-top-navbar.top-navbar-item>
-                    <x-top-navbar.top-navbar-item href="/events" class="nav-item">
+                    <x-top-navbar.top-navbar-item href="#" class="nav-item active">
                         Eventos
                     </x-top-navbar.top-navbar-item>
-                    <x-top-navbar.top-navbar-item href="#" class="nav-item active">
+                    <x-top-navbar.top-navbar-item href="/clients" class="nav-item">
                         Clientes
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/help" class="nav-item">
@@ -52,57 +52,60 @@
             <section id="form">
                 <x-forms.form>
                     @slot('registerHref')
-                        /clients
+                        /events
                     @endslot
                     @slot('goBackHref')
-                        /clients
+                        /events
                     @endslot
                     @slot('formTitle')
-                        Registrar novo cliente
+                        Registrar novo evento
                     @endslot
                     @slot('formRows')
                         <x-forms.form-row>
                             @slot('name')
-                                Nome Completo
+                                Endereço de Realização
+                            @endslot
+                            @slot('defaultValue')
                             @endslot
                         </x-forms.form-row>
                         <x-forms.form-row>
                             @slot('name')
-                                CPF
+                                Data
+                            @endslot
+                            @slot('defaultValue')
                             @endslot
                         </x-forms.form-row>
                         <x-forms.form-row>
                             @slot('name')
-                                Endereço
+                                Valor
+                            @endslot
+                            @slot('defaultValue')
                             @endslot
                         </x-forms.form-row>
                         <x-forms.form-row>
                             @slot('name')
-                                E-mail
+                                Situação
+                            @endslot
+                            @slot('defaultValue')
                             @endslot
                         </x-forms.form-row>
-                        <div class="form-row m-b-55">
-                            <div class="name">Phone</div>
-                            <div class="value">
-                                <div class="row row-refine">
-                                    <div class="col-3">
-                                        <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" name="area_code">
-                                            <label class="label--desc">Area Code</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-9">
-                                        <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" name="phone">
-                                            <label class="label--desc">Phone Number</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <x-forms.form-row>
+                            @slot('name')
+                                Cliente Relacionado
+                            @endslot
+                            @slot('defaultValue')
+                            @endslot
+                        </x-forms.form-row>
+                        <x-forms.form-row>
+                            @slot('name')
+                                Método de pagamento
+                            @endslot
+                            @slot('defaultValue')
+                            @endslot
+                        </x-forms.form-row>
                     @endslot
                     @slot('buttonName')
-                        Registrar Cliente
+                        Registrar Evento
                     @endslot
                 </x-forms.form>
             </section>
