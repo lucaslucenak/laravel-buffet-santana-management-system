@@ -46,6 +46,10 @@ Route::get('/clients/create', function () {
     return view('client.create-client');
 });
 
+Route::get('/clients/search', function () {
+    return view('client.search-client');
+});
+
 Route::get('/help', function () {
     return view('help');
 });

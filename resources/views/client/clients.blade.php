@@ -119,7 +119,7 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td>Otto</td>
-                            <td><a href="/clients/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
@@ -130,7 +130,7 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td>Otto</td>
-                            <td><a href="/clients/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
@@ -141,7 +141,7 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td>@mdo</td>
-                            <td><a href="/clients/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
@@ -152,7 +152,7 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td>@mdo</td>
-                            <td><a href="/clients/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                     @endslot
