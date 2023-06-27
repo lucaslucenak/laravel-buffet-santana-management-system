@@ -26,11 +26,15 @@ Route::get('/home', function () {
 });
 
 Route::get('/events', function () {
-    return view('events');
+    return view('event.events');
 });
 
 Route::get('/clients', function () {
-    return view('clients');
+    return view('client.clients');
+});
+
+Route::get('/clients/create', function () {
+    return view('client.create-client');
 });
 
 Route::get('/help', function () {
