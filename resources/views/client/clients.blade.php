@@ -113,45 +113,45 @@
                     @slot('tbody')
                         <tr>
                             <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
+                            <td>Lucas de Lucena Siqueira</td>
+                            <td>114.665.750-18</td>
+                            <td>Av. Paulista, 1681 - Bela Vista, São Paulo - SP, 01311-300</td>
+                            <td>(83) 98690 7270</td>
+                            <td>lucas.lucenak@gmail.com</td>
+                            <td>19/11/2001</td>
                             <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
+                            <td>Lucas de Lucena Siqueira</td>
+                            <td>114.665.750-18</td>
+                            <td>Av. Paulista, 1681 - Bela Vista, São Paulo - SP, 01311-300</td>
+                            <td>(83) 98690 7270</td>
+                            <td>lucas.lucenak@gmail.com</td>
+                            <td>19/11/2001</td>
                             <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td>Lucas de Lucena Siqueira</td>
+                            <td>114.665.750-18</td>
+                            <td>Av. Paulista, 1681 - Bela Vista, São Paulo - SP, 01311-300</td>
+                            <td>(83) 98690 7270</td>
+                            <td>lucas.lucenak@gmail.com</td>
+                            <td>19/11/2001</td>
                             <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td>Lucas de Lucena Siqueira</td>
+                            <td>114.665.750-18</td>
+                            <td>Av. Paulista, 1681 - Bela Vista, São Paulo - SP, 01311-300</td>
+                            <td>(83) 98690 7270</td>
+                            <td>lucas.lucenak@gmail.com</td>
+                            <td>19/11/2001</td>
                             <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>

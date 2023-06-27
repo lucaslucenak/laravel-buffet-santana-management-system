@@ -66,6 +66,7 @@
                                 Nome Completo
                             @endslot
                             @slot('defaultValue')
+                                Lucas de Lucena Siqueira
                             @endslot
                         </x-forms.form-row>
                         <x-forms.form-row>
@@ -73,6 +74,7 @@
                                 CPF
                             @endslot
                             @slot('defaultValue')
+                                114.665.750-18
                             @endslot
                         </x-forms.form-row>
                         <x-forms.form-row>
@@ -80,6 +82,7 @@
                                 Endereço
                             @endslot
                             @slot('defaultValue')
+                                Av. Paulista, 1681 - Bela Vista, São Paulo - SP, 01311-300
                             @endslot
                         </x-forms.form-row>
                         <x-forms.form-row>
@@ -87,6 +90,15 @@
                                 E-mail
                             @endslot
                             @slot('defaultValue')
+                                lucas.lucenak@gmail.com
+                            @endslot
+                        </x-forms.form-row>
+                        <x-forms.form-row>
+                            @slot('name')
+                                Data de Nacimento
+                            @endslot
+                            @slot('defaultValue')
+                            19/11/2001
                             @endslot
                         </x-forms.form-row>
                         <div class="form-row m-b-55">
@@ -95,13 +107,13 @@
                                 <div class="row row-refine">
                                     <div class="col-3">
                                         <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" name="area_code">
+                                            <input class="input--style-5" type="text" name="area_code" value="83">
                                             <label class="label--desc">Area Code</label>
                                         </div>
                                     </div>
                                     <div class="col-9">
                                         <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" name="phone">
+                                            <input class="input--style-5" type="text" name="phone" value="98690 7270">
                                             <label class="label--desc">Phone Number</label>
                                         </div>
                                     </div>

@@ -89,6 +89,13 @@
                             @slot('defaultValue')
                             @endslot
                         </x-forms.form-row>
+                        <x-forms.form-row>
+                            @slot('name')
+                                Data de Nacimento
+                            @endslot
+                            @slot('defaultValue')
+                            @endslot
+                        </x-forms.form-row>
                         <div class="form-row m-b-55">
                             <div class="name">Phone</div>
                             <div class="value">
