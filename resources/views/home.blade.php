@@ -104,7 +104,7 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><i class="fa-regular fa-eye"></i></td>
+                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -113,7 +113,7 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><i class="fa-regular fa-eye"></i></td>
+                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
@@ -122,7 +122,7 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><i class="fa-regular fa-eye"></i></td>
+                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
@@ -131,7 +131,7 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><i class="fa-regular fa-eye"></i></td>
+                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
                         </tr>
                     @endslot
                 </x-table.table>

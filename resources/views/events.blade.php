@@ -54,16 +54,16 @@
                             Adicionar novo Evento
                         @endslot
                         @slot('description')
-                            Clique no botão abaixo e preencha todos os campos!
+                            Clique no botão abaixo!
                         @endslot
                         @slot('buttonContent')
 
                         @endslot
                         @slot('href')
-                            /events/search
+                            /events/create
                         @endslot
                         @slot('buttonName')
-                            Pesquisar Evento
+                            Adicionar Evento
                         @endslot
                     </x-cards.card>
                     <x-cards.card>
@@ -71,7 +71,7 @@
                             Buscar Evento
                         @endslot
                         @slot('description')
-                            Selecione o parâmetro desejado, preencha o campo e clique em "Pesquisar Evento"!
+                            Selecione o parâmetro desejado preecha e clique no botão ao lado!
                         @endslot
                         @slot('buttonContent')
                             <select id="cpfInput" style="border-radius: 10px; border: 1px solid #ccc;">
@@ -85,7 +85,7 @@
                             /events/search
                         @endslot
                         @slot('buttonName')
-                            Pesquisar Evento
+                        Buscar
                         @endslot
                     </x-cards.card>
                 </div>
@@ -104,8 +104,8 @@
                             <th scope="col">Endereço</th>
                             <th scope="col">Data</th>
                             <th scope="col">Valor</th>
-                            <th scope="col">Status</th>
-                            <th scope="col">View</th>
+                            <th scope="col">Situação</th>
+                            <th scope="col">Ver</th>
                         </tr>
                     @endslot
                     @slot('tbody')
@@ -116,7 +116,7 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><i class="fa-regular fa-eye"></i></td>
+                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -125,7 +125,7 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><i class="fa-regular fa-eye"></i></td>
+                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
@@ -134,7 +134,7 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><i class="fa-regular fa-eye"></i></td>
+                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
@@ -143,7 +143,7 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><i class="fa-regular fa-eye"></i></td>
+                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
                         </tr>
                     @endslot
                 </x-table.table>
