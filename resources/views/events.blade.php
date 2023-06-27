@@ -106,6 +106,7 @@
                             <th scope="col">Valor</th>
                             <th scope="col">Situação</th>
                             <th scope="col">Ver</th>
+                            <th scope="col">Excluir</th>
                         </tr>
                     @endslot
                     @slot('tbody')
@@ -116,7 +117,8 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
+                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><a href="/events/delete"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -125,7 +127,7 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
+                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
@@ -134,7 +136,7 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
+                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
@@ -143,7 +145,7 @@
                             <td>@mdo</td>
                             <td>Otto</td>
                             <td>@mdo</td>
-                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
+                            <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
                         </tr>
                     @endslot
                 </x-table.table>

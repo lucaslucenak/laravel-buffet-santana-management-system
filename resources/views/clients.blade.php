@@ -107,6 +107,7 @@
                             <th scope="col">Email</th>
                             <th scope="col">Nascimento</th>
                             <th scope="col">Ver</th>
+                            <th scope="col">Excluir</th>
                         </tr>
                     @endslot
                     @slot('tbody')
@@ -118,7 +119,8 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td>Otto</td>
-                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
+                            <td><a href="/clients/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -128,7 +130,8 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td>Otto</td>
-                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
+                            <td><a href="/clients/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
@@ -138,7 +141,8 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td>@mdo</td>
-                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
+                            <td><a href="/clients/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
@@ -148,7 +152,8 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td>@mdo</td>
-                            <td><a href=""><i class="fa-regular fa-eye"></i></a></td>
+                            <td><a href="/clients/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                     @endslot
                 </x-table.table>
