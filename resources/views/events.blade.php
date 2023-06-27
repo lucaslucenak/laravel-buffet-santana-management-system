@@ -118,7 +118,7 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><a href="/events/delete"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
+                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -128,6 +128,7 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
@@ -137,6 +138,7 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
@@ -146,8 +148,17 @@
                             <td>Otto</td>
                             <td>@mdo</td>
                             <td><a href="/events/edit"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
                         </tr>
                     @endslot
+                    <x-confirm-delete-modal>
+                        @slot('description')
+                        Deseja realmente excluir o evento? </br>Esta ação é irreversível. 
+                        @endslot
+                        @slot('href')
+                        /home
+                        @endslot
+                    </x-confirm-delete-modal>
                 </x-table.table>
             </section>
         </div>
