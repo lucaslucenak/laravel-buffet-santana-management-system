@@ -10,19 +10,28 @@
         <nav id="sidebar">
             <x-sidebar.sidebar>
                 <x-sidebar.sidebar-item href='/home'>
+                    <i class="fa-solid fa-house"></i>
                     Home
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item class="active" href='#'>
+                    <i class="fa-solid fa-calendar-days"></i>
                     Eventos
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/clients'>
+                    <i class="fa-solid fa-person"></i>
                     Clientes
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/help'>
+                    <i class="fa-solid fa-circle-info"></i>
                     Ajuda
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/about'>
+                    <i class="fa-solid fa-book"></i>
                     Sobre
+                </x-sidebar.sidebar-item>
+                <x-sidebar.sidebar-item href='/sign-in'>
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    Logout
                 </x-sidebar.sidebar-item>
             </x-sidebar.sidebar>
         </nav>
@@ -103,6 +112,8 @@
                             @slot('defaultValue')
                             @endslot
                         </x-forms.form-row>
+                    @endslot
+                    @slot('deleteButton')
                     @endslot
                     @slot('buttonName')
                         Registrar Evento

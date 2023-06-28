@@ -10,19 +10,28 @@
         <nav id="sidebar">
             <x-sidebar.sidebar>
                 <x-sidebar.sidebar-item href='/home'>
+                    <i class="fa-solid fa-house"></i>
                     Home
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/events'>
+                    <i class="fa-solid fa-calendar-days"></i>
                     Eventos
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item class="active" href='#'>
+                    <i class="fa-solid fa-person"></i>
                     Clientes
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/help'>
+                    <i class="fa-solid fa-circle-info"></i>
                     Ajuda
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/about'>
+                    <i class="fa-solid fa-book"></i>
                     Sobre
+                </x-sidebar.sidebar-item>
+                <x-sidebar.sidebar-item href='/sign-in'>
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    Logout
                 </x-sidebar.sidebar-item>
             </x-sidebar.sidebar>
         </nav>
@@ -102,19 +111,19 @@
                             @endslot
                         </x-forms.form-row>
                         <div class="form-row m-b-55">
-                            <div class="name">Phone</div>
+                            <div class="name">Celular</div>
                             <div class="value">
                                 <div class="row row-refine">
                                     <div class="col-3">
                                         <div class="input-group-desc">
                                             <input class="input--style-5" type="text" name="area_code" value="83">
-                                            <label class="label--desc">Area Code</label>
+                                            <label class="label--desc">DDD</label>
                                         </div>
                                     </div>
                                     <div class="col-9">
                                         <div class="input-group-desc">
                                             <input class="input--style-5" type="text" name="phone" value="98690 7270">
-                                            <label class="label--desc">Phone Number</label>
+                                            <label class="label--desc">Número</label>
                                         </div>
                                     </div>
                                 </div>
@@ -124,7 +133,6 @@
                     @slot('deleteButton')
                     <a class="btn btn--radius-2 btn--red btn-register confirm-delete-link" style='background-color:#df2323; color:white;'data-toggle="modal" data-target="#confirmDeleteModal" >Excluir</a>
                     @endslot
-
                     @slot('buttonName')
                         Registrar Cliente
                     @endslot
