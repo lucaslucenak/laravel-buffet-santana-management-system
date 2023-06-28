@@ -112,25 +112,25 @@
                                     <div class="col-lg-6 mt-4 pt-2 expand-on-hover">
                                         <div class="media align-items-center rounded shadow p-3">
                                             <i class="fa-brands fa-github"></i>
-                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Github</a></h6>
+                                            <h6 class="ml-3 mb-0"><a href="https://github.com/lucaslucenak" class="text-dark" target="_blank">Github</a></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 mt-4 pt-2 expand-on-hover">
                                         <div class="media align-items-center rounded shadow p-3">
                                             <i class="fa-solid fa-download"></i>
-                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Download ZIP</a></h6>
+                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark" download>Download ZIP</a></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 mt-4 pt-2 expand-on-hover">
                                         <div class="media align-items-center rounded shadow p-3">
                                             <i class="fa-brands fa-linkedin-in"></i>
-                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Linkedin</a></h6>
+                                            <h6 class="ml-3 mb-0"><a href="https://www.linkedin.com/in/lucas-lucena-6588271a3/" class="text-dark" target="_blank">Linkedin</a></h6>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 mt-4 pt-2 expand-on-hover">
                                         <div class="media align-items-center rounded shadow p-3">
                                             <i class="fa-sharp fa-regular fa-envelope"></i>
-                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Contato</a></h6>
+                                            <h6 class="ml-3 mb-0"><a href="mailto:lucas.lucenak@gmail.com" class="text-dark" target="_blank">Contato</a></h6>
                                         </div>
                                     </div>
                                 </div>
