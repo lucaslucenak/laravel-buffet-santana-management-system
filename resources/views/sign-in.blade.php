@@ -39,9 +39,9 @@
                                             <button class="btn btn-dark btn-lg btn-block" type="submit">Login</button>
                                         </div>
 
-                                        <a class="small text-muted" href="/restore-password">Forgot password?</a>
-                                        <a href="#!" class="small text-muted">Terms of use.</a>
-                                        <a href="#!" class="small text-muted">Privacy policy</a>
+                                        <a class="small text-muted" href="/restore-password">Esqueceu a senha?</a>
+                                        <a href="#!" class="small text-muted">Termos de uso</a>
+                                        <a href="#!" class="small text-muted">Política de Privacidade</a>
                                     </form>
 
                                 </div>

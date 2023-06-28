@@ -44,8 +44,8 @@
                                             @endslot
                                         </x-confirm-email-sent-modal>
                                         <a class="small text-muted" href="/sign-in">Voltar</a>
-                                        <a href="#!" class="small text-muted">Terms of use.</a>
-                                        <a href="#!" class="small text-muted">Privacy policy</a>
+                                        <a href="#!" class="small text-muted">Termos de uso</a>
+                                        <a href="#!" class="small text-muted">Política de privacidade</a>
                                     </form>
 
                                 </div>
