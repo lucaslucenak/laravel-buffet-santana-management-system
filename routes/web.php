@@ -21,6 +21,10 @@ Route::get('/sign-in', function () {
     return view('sign-in');
 });
 
+Route::get('/restore-password', function () {
+    return view('restore-password');
+});
+
 Route::get('/home', function () {
     return view('home');
 });
