@@ -54,7 +54,10 @@
                         <div class="col-md-9">
                             <div class="card p-4 mt-3">
                                 <h3 class="heading mt-2 text-center">Suporte e Manuais</h3>
-                                <h5 class="mt-1 text-center">Suporte e Manuadadasdasdasdasdais</h5>
+                                <h6 class="mt-1 text-center">
+                                    Dúvida em como utilizar o sistema ou em como instalar e inicializar o projeto?
+                                </br>Clique nos botões abaixo e baixe os arquivos PDFs com as instruções!
+                                </h5>
                                 <div class="row mt-4 g-3 justify-content-center">
                                     <x-cards.help-card>
                                         @slot('fileHref')
