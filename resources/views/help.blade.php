@@ -9,7 +9,7 @@
     <div class="wrapper d-flex align-items-stretch">
         <nav id="sidebar">
             <x-sidebar.sidebar>
-                <x-sidebar.sidebar-item class="active" href='#'>
+                <x-sidebar.sidebar-item href='/home'>
                     Home
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/events'>
@@ -18,7 +18,7 @@
                 <x-sidebar.sidebar-item href='/clients'>
                     Clientes
                 </x-sidebar.sidebar-item>
-                <x-sidebar.sidebar-item href='/help'>
+                <x-sidebar.sidebar-item class="active" href='#'>
                     Ajuda
                 </x-sidebar.sidebar-item>
                 <x-sidebar.sidebar-item href='/about'>
@@ -31,7 +31,7 @@
         <div id="content" class="p-4 p-md-5">
             <section id="top-navbar">
                 <x-top-navbar.top-navbar>
-                    <x-top-navbar.top-navbar-item href="#" class="nav-item active">
+                    <x-top-navbar.top-navbar-item href="/home" class="nav-item">
                         Home
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/events" class="nav-item">
@@ -40,7 +40,7 @@
                     <x-top-navbar.top-navbar-item href="/clients" class="nav-item">
                         Clientes
                     </x-top-navbar.top-navbar-item>
-                    <x-top-navbar.top-navbar-item href="/help" class="nav-item">
+                    <x-top-navbar.top-navbar-item href="#" class="nav-item active">
                         Ajuda
                     </x-top-navbar.top-navbar-item>
                     <x-top-navbar.top-navbar-item href="/about" class="nav-item">
