@@ -81,7 +81,7 @@
                                     </x-cards.help-card>
                                     <x-cards.help-card>
                                         @slot('fileHref')
-                                        /pdf/instalacao.txt
+                                        /pdf/Manual de Utilização do Sistema.pdf
                                         @endslot
                                         @slot('icon')
                                         <i class="fa-solid fa-book" style="font-size: 30px;"></i>
