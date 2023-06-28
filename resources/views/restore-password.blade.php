@@ -29,11 +29,11 @@
                                         <div class="form-outline mb-4">
                                             <input type="email" id="form2Example17"
                                                 class="form-control form-control-lg" />
-                                            <label class="form-label" for="form2Example17">Seu E-mail cadastrado</label>
+                                            <label class="form-label" for="form2Example17">Seu e-mail cadastrado</label>
                                         </div>
 
                                         <div class="pt-1 mb-4">
-                                            <a class="btn btn-dark btn-lg btn-block confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1" style="color:white">ENVIAR</a>
+                                            <a class="btn btn-dark btn-lg btn-block confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1" style="color:white">Enviar</a>
                                         </div>
                                         <x-confirm-email-sent-modal>
                                             @slot('description')
@@ -44,8 +44,8 @@
                                             @endslot
                                         </x-confirm-email-sent-modal>
                                         <a class="small text-muted" href="/sign-in">Voltar</a>
-                                        <a href="#!" class="small text-muted">Termos de uso</a>
-                                        <a href="#!" class="small text-muted">Política de privacidade</a>
+                                        <a href="#!" class="small text-muted"> | Termos de uso</a>
+                                        <a href="#!" class="small text-muted"> | Política de privacidade</a>
                                     </form>
 
                                 </div>

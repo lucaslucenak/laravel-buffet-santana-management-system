@@ -58,7 +58,7 @@
                         /clients
                     @endslot
                     @slot('formTitle')
-                        Registrar novo cliente
+                        Editar Cliente
                     @endslot
                     @slot('formRows')
                         <x-forms.form-row>
@@ -121,10 +121,22 @@
                             </div>
                         </div>
                     @endslot
+                    @slot('deleteButton')
+                    <a class="btn btn--radius-2 btn--red btn-register confirm-delete-link" style='background-color:#df2323; color:white;'data-toggle="modal" data-target="#confirmDeleteModal" >Excluir</a>
+                    @endslot
+
                     @slot('buttonName')
                         Registrar Cliente
                     @endslot
                 </x-forms.form>
+                <x-confirm-delete-modal>
+                    @slot('description')
+                    Deseja realmente excluir o cliente? </br>Esta ação é irreversível. 
+                    @endslot
+                    @slot('href')
+                    /clients
+                    @endslot
+                </x-confirm-delete-modal>
             </section>
 
         </div>
