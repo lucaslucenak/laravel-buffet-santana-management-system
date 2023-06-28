@@ -1,6 +1,7 @@
 @extends('layouts.app-layout')
 @section('styles')
     <link rel="stylesheet" href="/css/dashboard.css">
+    <link rel="stylesheet" href="/css/about.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 @endsection
@@ -77,7 +78,7 @@
                                     <div class="row">
                                         <div class="col-lg-12 col-md-12">
                                             <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                                                <img src="https://www.bootdey.com/image/337x450/87CEFA/000000" class="img-fluid" alt="Image" />
+                                                <img src="images/buffet.jpg" class="img-fluid" alt="Image" />
                                                 <div class="img-overlay bg-dark"></div>
                                             </div>
                                         </div>
@@ -101,36 +102,35 @@
                 
                         <div class="col-lg-6 col-md-6 col-12 order-1 order-md-2">
                             <div class="section-title ml-lg-5">
-                                <h5 class="text-custom font-weight-normal mb-3">About Us</h5>
+                                <h5 class="text-custom font-weight-normal mb-3">Um pouco sobre</h5>
                                 <h4 class="title mb-4">
-                                    Our mission is to <br />
-                                    make your life easier.
+                                    Sistema de administração para o Buffet Santana
                                 </h4>
-                                <p class="text-muted mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit quod debitis praesentium pariatur temporibus ipsa, cum quidem obcaecati sunt?</p>
+                                <p class="text-muted mb-0">Esse projeto foi desenvolvido em demanda da matéria Interface Homem Computador, ministrada pelo professor Daniel Scherer</p>
                 
                                 <div class="row">
-                                    <div class="col-lg-6 mt-4 pt-2">
+                                    <div class="col-lg-6 mt-4 pt-2 expand-on-hover">
                                         <div class="media align-items-center rounded shadow p-3">
-                                            <i class="fa fa-play h4 mb-0 text-custom"></i>
-                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Responsive</a></h6>
+                                            <i class="fa-brands fa-github"></i>
+                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Github</a></h6>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 mt-4 pt-2">
+                                    <div class="col-lg-6 mt-4 pt-2 expand-on-hover">
                                         <div class="media align-items-center rounded shadow p-3">
-                                            <i class="fa fa-file-download h4 mb-0 text-custom"></i>
-                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Free Download</a></h6>
+                                            <i class="fa-solid fa-download"></i>
+                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Download ZIP</a></h6>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 mt-4 pt-2">
+                                    <div class="col-lg-6 mt-4 pt-2 expand-on-hover">
                                         <div class="media align-items-center rounded shadow p-3">
-                                            <i class="fa fa-user h4 mb-0 text-custom"></i>
-                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Support</a></h6>
+                                            <i class="fa-brands fa-linkedin-in"></i>
+                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Linkedin</a></h6>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 mt-4 pt-2">
+                                    <div class="col-lg-6 mt-4 pt-2 expand-on-hover">
                                         <div class="media align-items-center rounded shadow p-3">
-                                            <i class="fa fa-image h4 mb-0 text-custom"></i>
-                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Development</a></h6>
+                                            <i class="fa-sharp fa-regular fa-envelope"></i>
+                                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Contato</a></h6>
                                         </div>
                                     </div>
                                 </div>
