@@ -74,7 +74,7 @@
                                 <div class="card-body" style="padding-top: 30px; padding-bottom: 30px;">
                                     <i class="fa-solid fa-dollar-sign" style="font-size: 50px;"></i>
                                     <h5 class="card-title" style="margin-top: 15px;">Receita mensal</h5>
-                                    <p class="card-text" style="text-align: right;">200</p>
+                                    <p class="card-text" style="text-align: right;">R$ 26.456,00</p>
                                 </div>
                             </div>
                         </div>
