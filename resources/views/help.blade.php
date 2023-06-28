@@ -57,6 +57,9 @@
                                 <h5 class="mt-1 text-center">Suporte e Manuadadasdasdasdasdais</h5>
                                 <div class="row mt-4 g-3 justify-content-center">
                                     <x-cards.help-card>
+                                        @slot('fileHref')
+                                        /pdf/instalacao.txt
+                                        @endslot
                                         @slot('icon')
                                         <i class="fa-solid fa-play" style="font-size: 30px;"></i>
                                         @endslot
@@ -65,6 +68,9 @@
                                         @endslot
                                     </x-cards.help-card>
                                     <x-cards.help-card>
+                                        @slot('fileHref')
+                                        /pdf/instalacao.txt
+                                        @endslot
                                         @slot('icon')
                                         <i class="fa-solid fa-book" style="font-size: 30px;"></i>
                                         @endslot
