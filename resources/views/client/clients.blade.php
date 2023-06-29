@@ -129,7 +129,7 @@
                             <td>lucas.lucenak@gmail.com</td>
                             <td>19/11/2001</td>
                             <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
+                            <td class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -140,7 +140,7 @@
                             <td>lucas.lucenak@gmail.com</td>
                             <td>19/11/2001</td>
                             <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
+                            <td class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
@@ -151,7 +151,7 @@
                             <td>lucas.lucenak@gmail.com</td>
                             <td>19/11/2001</td>
                             <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
+                            <td class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td> 
                         </tr>
                         <tr>
                             <th scope="row">4</th>
@@ -162,9 +162,17 @@
                             <td>lucas.lucenak@gmail.com</td>
                             <td>19/11/2001</td>
                             <td><a href="/clients/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
+                            <td class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                     @endslot
+                    <x-confirm-delete-modal>
+                        @slot('description')
+                        Deseja realmente excluir o cliente? </br>Esta ação é irreversível. 
+                        @endslot
+                        @slot('href')
+                        /clients
+                        @endslot
+                    </x-confirm-delete-modal>
                 </x-table.table>
             </section>
         </div>

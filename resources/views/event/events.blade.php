@@ -127,7 +127,7 @@
                             <td>R$ 75.063,20</td>
                             <td>Pago</td>
                             <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
+                            <td class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -137,7 +137,7 @@
                             <td>R$ 75.063,20</td>
                             <td>Pago</td>
                             <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
+                            <td class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
@@ -147,7 +147,7 @@
                             <td>R$ 75.063,20</td>
                             <td>Pago</td>
                             <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
+                            <td class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
@@ -157,7 +157,7 @@
                             <td>R$ 75.063,20</td>
                             <td>Pago</td>
                             <td><a href="/events/search"><i class="fa-regular fa-pen-to-square"></i></a></td>
-                            <td><a href="/events/delete" class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></a></td>
+                            <td class="confirm-delete-link" data-toggle="modal" data-target="#confirmDeleteModal" data-item-id="1"><i class="fa-sharp fa-solid fa-trash" style="color: #db1414;"></i></td>
                         </tr>
                     @endslot
                     <x-confirm-delete-modal>
@@ -165,7 +165,7 @@
                         Deseja realmente excluir o evento? </br>Esta ação é irreversível. 
                         @endslot
                         @slot('href')
-                        /home
+                        /events
                         @endslot
                     </x-confirm-delete-modal>
                 </x-table.table>

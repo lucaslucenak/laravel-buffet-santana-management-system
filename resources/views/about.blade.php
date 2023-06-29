@@ -115,7 +115,7 @@
                                 <h4 class="title mb-4">
                                     Sistema de administração para o Buffet Santana
                                 </h4>
-                                <p class="text-muted mb-0">Esse projeto foi desenvolvido em demanda da matéria Interface Homem Computador, ministrada pelo professor Daniel Scherer</p>
+                                <p class="text-muted mb-0">Esse projeto foi desenvolvido em demanda da matéria Interface Homem Computador, ministrada pelo professor Daniel Scherer.</p>
                 
                                 <div class="row">
                                     <div class="col-lg-6 mt-4 pt-2 expand-on-hover">
