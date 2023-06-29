@@ -70,7 +70,7 @@
                                 <div class="row mt-4 g-3 justify-content-center">
                                     <x-cards.help-card>
                                         @slot('fileHref')
-                                        /pdf/instalacao.txt
+                                        /pdf/Instalação e Inicialização do Projeto.pdf
                                         @endslot
                                         @slot('icon')
                                         <i class="fa-solid fa-play" style="font-size: 30px;"></i>
