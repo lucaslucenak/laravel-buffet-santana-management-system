@@ -80,7 +80,7 @@
                             Buscar Cliente
                         @endslot
                         @slot('description')
-                            Selecione o parâmetro desejado preecha e clique no botão ao lado!
+                            Selecione o parâmetro desejado, preencha e clique no botão ao lado!
                         @endslot
                         @slot('buttonContent')
                             <select id="cpfInput" style="border-radius: 10px; border: 1px solid #ccc;">
